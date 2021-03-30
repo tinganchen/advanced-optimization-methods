@@ -34,7 +34,7 @@ To use the techniques of the single-state methods to minimize the objective func
 
 #### Implementation
 
-##### 1. Description
+#### 1. Description
 
 ```
 01-single-state-optimization/
@@ -45,7 +45,7 @@ To use the techniques of the single-state methods to minimize the objective func
 ```
 In [optimization.py](optimization.py), single-state optimization methods are degined as functions under the object, *single_state_optimizer()*. In addition, the objective function *f* is also defined in it.
 
-##### 2. Initialization
+#### 2. Initialization
 
 * Search space
 
@@ -69,7 +69,7 @@ d = -19
 optimizer = single_state_optimizer(a, b, c, d, x_min, x_max, decimal = 4) 
 ```
 
-##### 3. Single-state ptimization methods
+#### 3. Single-state ptimization methods
 
 Input settings refer to the [report.pdf](report.pdf) or the [optimization.py](optimization.py) files.
 
